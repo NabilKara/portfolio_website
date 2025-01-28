@@ -4,7 +4,7 @@ import ProjectCard from '../../common/ProjectCard'
 import rust from '../../assets/rust.png'
 import quiz from '../../assets/quiz.webp'
 import projectManager from '../../assets/project_manager.jpg'
-import fitlift from '../../assets/fitlift.png'
+import CLang from '../../assets/Clang.png'
 function Projects() {
   return (
     <section id="projects" className={styles.container}>
@@ -22,7 +22,7 @@ function Projects() {
             h3="Project Manager"
             p="A RILT stack project manager"
             />
-            <ProjectCard src={fitlift} link="https://github.com/NabilKara/GUI_Meth_Acces_Fichiers"
+            <ProjectCard src={CLang} link="https://github.com/NabilKara/GUI_Meth_Acces_Fichiers"
             h3="Files Access Methods"
             p="Used C and SDL to visualize the T¬OV with overlap files structure"
             />

@@ -3,12 +3,7 @@
   flex-direction: column;
   text-align: center;
 
-  img {
-    max-width: 250px;
-    align-self: center;
-    background-color: var(--project-card-bg);
-    border-radius: 20px;
-  }
+  
 
   a {
     width: fit-content;
@@ -16,9 +11,16 @@
     color: #222;
     transition: transform 200ms ease-in-out;
   }
+  img {
+    max-width: 250px;
+    align-self: center;
+    background-color: var(--project-card-bg);
+    border-radius: 20px;
+  }
 
-  a:hover {
+  img:hover {
     transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(255, 105, 180, 0.6);
   }
 }
 
